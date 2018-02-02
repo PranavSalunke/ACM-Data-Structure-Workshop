@@ -163,7 +163,7 @@ class LinkedList{
    public int get(int index) throws Exception{
          if(index >= this.size || index < 0){
             System.out.println("Warning: tried to get() with index that is out of bounds. Will throw exception");
-             throw new Exception("Error. Get out bounds"); //have to throw exception since you can't return like we did above
+             throw new Exception("Error. get() out of bounds"); //have to throw exception since you can't return like we did above
              // not needed for the structure, but using it in InteractiveDataStructures.java
          }
 
