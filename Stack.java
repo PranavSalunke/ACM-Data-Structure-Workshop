@@ -19,14 +19,14 @@ class Stack extends LinkedList{
       this.insert(data,0);
    }
 
-   public int pop(){
+   public int pop() throws Exception{
       int value = this.get(0);
       this.delete(0);
 
       return value;
    }
 
-   public int peek(){
+   public int peek() throws Exception{
       return this.get(0);
    }
 }

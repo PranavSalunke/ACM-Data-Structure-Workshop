@@ -19,14 +19,14 @@ class Queue extends LinkedList{
       this.insert(data,0);
    }
 
-   public int pop(){
+   public int pop() throws Exception{
       int value = this.get(this.size-1);
       this.delete(this.size-1);
 
       return value;
    }
 
-   public int peek(){
+   public int peek() throws Exception{
       return this.get(this.size-1);
    }
 }

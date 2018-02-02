@@ -3,7 +3,7 @@
 */
 
 class StackDriver{
-   public static void main(String[] args){
+   public static void main(String[] args) throws Exception{
 
       System.out.println("\t\t---STACK---");
 
@@ -53,7 +53,8 @@ class StackDriver{
       System.out.println("Popping " + value + " off the stack\n Stack: " + stack);
 
       //try to pop something off when there is nothing on the stack
-      value = stack.pop(); //error
+      System.out.println("\nThere should be an exception here");
+      value = stack.pop(); //Exception
       System.out.println("Popping " + value + " off the stack\n Stack: " + stack);
 
 

@@ -251,19 +251,39 @@ class InteractiveDataStructuresDriver{
             }
          }else if(methodId == 2){  //pop
             if(structure instanceof Stack){
-               int value = ((Stack)structure).pop();
-               System.out.println("The value that was popped: " + value);
+               try{
+                  int value = ((Stack)structure).pop();
+                  System.out.println("The value that was popped: " + value);
+               }catch(Exception e){
+                  System.out.println("Exception: " + e.getMessage());
+                  System.out.println("Index was out of bounds in Stack, did not pop anything.\n");
+               }
             }else{ //if not a LinkedList nor Stack, it's a Queue
-               int value = ((Queue)structure).pop();
-               System.out.println("The value that was popped: " + value);
+               try{
+                  int value = ((Queue)structure).pop();
+                  System.out.println("The value that was popped: " + value);
+               }catch(Exception e){
+                  System.out.println("Exception: " + e.getMessage());
+                  System.out.println("Index was out of bounds in Queue, did not pop anything.\n");
+               }
             }
          }else{ //peek
             if(structure instanceof Stack){
-               int value = ((Stack)structure).peek();
-               System.out.println("The value that was peeked: " + value);
+               try{
+                  int value = ((Stack)structure).peek();
+                  System.out.println("The value that was peeked: " + value);
+               }catch(Exception e){
+                  System.out.println("Exception: " + e.getMessage());
+                  System.out.println("Index was out of bounds in Stack, did not peek anything.\n");
+               }
             }else{ //if not a LinkedList nor Stack, it's a Queue
-               int value = ((Queue)structure).peek();
-               System.out.println("The value that was peeked: " + value);
+               try{
+                  int value = ((Queue)structure).peek();
+                  System.out.println("The value that was peeked: " + value);
+               }catch(Exception e){
+                  System.out.println("Exception: " + e.getMessage());
+                  System.out.println("Index was out of bounds in Queue, did not peek anything.\n");
+               }
             }
          }
          System.out.println("The " + type + " so far: " + structure);

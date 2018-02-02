@@ -3,17 +3,7 @@
 */
 
 class LinkedListDriver{
-
-
-
-                  //BEFORE SENDING OUT:
-            //MAKE INTERACTIVE DRIVER (in terminal)
-               //- make an object LL,S,or,Q (save all in a list)
-               //- let user add/remove push/pop
-               //- let user print (and print after every operation)
-
-
-   public static void main(String[] args){
+   public static void main(String[] args) throws Exception{
       // 0 indexed
       // insert(data,index) index=size to insert at end
       // delete(index)

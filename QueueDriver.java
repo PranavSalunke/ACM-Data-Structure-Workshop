@@ -3,7 +3,7 @@
 */
 
 class QueueDriver{
-   public static void main(String[] args){
+   public static void main(String[] args) throws Exception{
 
       System.out.println("\t\t---QUEUE---");
 
@@ -53,6 +53,7 @@ class QueueDriver{
       System.out.println("Popping " + value + " off the queue\n Queue: " + queue);
 
       //try to pop something off when there is nothing on the queue
+      System.out.println("\nThere should be an exception here");
       value = queue.pop(); //error
       System.out.println("Popping " + value + " off the queue\n Queue: " + queue);
 
