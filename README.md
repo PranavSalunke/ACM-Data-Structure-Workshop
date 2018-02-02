@@ -65,10 +65,12 @@ Typing out the commands that the Interactive Driver asks can take a few minutes.
 
 
 List: [2, 3, 1]
+
 What to copy: 1 1 0 1 c 1 0 2 c 1 1 3 c
 
 
 List: [1, 4, 5, 3, 2, 6]
+
 What to copy: 1 1 0 1 c 1 1 2 c 1 1 3 c 1 1 4 c 1 2 5 c 1 5 6 c
 
 
@@ -76,10 +78,12 @@ What to copy: 1 1 0 1 c 1 1 2 c 1 1 3 c 1 1 4 c 1 2 5 c 1 5 6 c
 
 
 Stack: [4, 3, 2, 1]
+
 What to copy: 2 1 1 c 1 2 c 1 3 c 1 4 c 
 
 
 Stack: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 What to copy: 2 1 10 c 1 9 c 1 8 c 1 7 c 1 6 c 1 5 c 1 4 c 1 3 c 1 2 c 1 1 c
 
 
@@ -87,9 +91,11 @@ What to copy: 2 1 10 c 1 9 c 1 8 c 1 7 c 1 6 c 1 5 c 1 4 c 1 3 c 1 2 c 1 1 c
 
 
 Queue: [4, 3, 2, 1]
+
 What to copy: 3 1 1 c 1 2 c 1 3 c 1 4 c 
 
 
 Queue: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
 What to copy: 3 1 1 c 1 2 c 1 3 c 1 4 c 1 5 c 1 6 c 1 7 c 1 8 c 1 9 c 1 10 c
 
