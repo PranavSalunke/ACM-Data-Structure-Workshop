@@ -24,8 +24,10 @@ This collection of files is to help you learn about Linked Lists as well as Stac
    * run to see demonstration of the LinkedList methods
 * QueueDriver.java
    * run to see demonstration of the Queue methods
+   * Note: this driver will throw an Exception. This is expected.
 * StackDriver.java
    * run to see demonstration of the Stack methods
+   * Note: this driver will throw an Exception. This is expected.
 * InteractiveDataStructuresDriver.java
    * run to play with the data structures in real time on the terminal. Instructions how to use it are shown when you run this driver
 
